@@ -1,4 +1,4 @@
-import ERDMechShop from '../assets/ProjectImg/ERDMechSHOP.png';
+import ERDMechShop from '../assets/ProjectImg/ERDMechShop.png';
 import MechShopAPI from '../assets/ProjectImg/MechShopAPI.png';
 
 export const projects = [

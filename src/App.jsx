@@ -8,7 +8,7 @@ import Contact from './components/Contact'
 
 function App() {
   return (
-    <>
+    <div className="bg-gradient-to-b from-slate-900 to-slate-800 min-h-screen">
       <NavBar />
       <Routes>
         <Route path='/' element={<Home />} />
@@ -18,7 +18,7 @@ function App() {
         <Route path='/contact' element={<Contact />} />
         <Route path='*' element={<Navigate to="/" replace />} />
       </Routes>
-    </>
+    </div>
   )
 }
 

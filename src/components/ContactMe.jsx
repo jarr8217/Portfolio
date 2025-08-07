@@ -6,16 +6,16 @@ const ContactMe = () => {
         <div>
             <ContactForm />
 
-            <section className="bg-gray-100 py-6 md:py-4 px-4">
+            <section className="py-6 md:py-4 px-4">
                 <div className="max-w-4xl mx-auto text-center">
-                    <h3 className="text-2xl md:text-3xl font-bold text-gray-800 mb-4 md:mb-6">Connect With Me</h3>
+                    <h3 className="text-2xl md:text-3xl font-bold text-white mb-4 md:mb-6 tracking-wide">Connect With Me</h3>
 
                     <div className="flex justify-center space-x-6 md:space-x-8">
                         <a
-                            href="https://www.linkedin.com/in/jose-refoyo-ron-660a52321" // Replace with your LinkedIn URL
+                            href="https://www.linkedin.com/in/jose-refoyo-ron-660a52321"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="text-gray-800 hover:text-blue-400 transition-colors duration-300 transform hover:scale-110"
+                            className="text-white hover:text-gray-300 transition-colors duration-300 transform hover:scale-110"
                             aria-label="LinkedIn Profile"
                         >
                             <svg className="w-8 h-8 md:w-10 md:h-10" fill="currentColor" viewBox="0 0 24 24">
@@ -27,7 +27,7 @@ const ContactMe = () => {
                             href="https://github.com/jarr8217"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="text-gray-800 hover:text-blue-400 transition-colors duration-300 transform hover:scale-110"
+                            className="text-white hover:text-gray-300 transition-colors duration-300 transform hover:scale-110"
                             aria-label="GitHub Profile"
                         >
                             <svg className="w-8 h-8 md:w-10 md:h-10" fill="currentColor" viewBox="0 0 24 24">
@@ -39,7 +39,7 @@ const ContactMe = () => {
                             href="mailto:joserefoyo93@gmail.com"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="text-gray-800 hover:text-blue-400 transition-colors duration-300 transform hover:scale-110"
+                            className="text-white hover:text-gray-300 transition-colors duration-300 transform hover:scale-110"
                             aria-label="Email Contact"
                         >
                             <svg className="w-8 h-8 md:w-10 md:h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">

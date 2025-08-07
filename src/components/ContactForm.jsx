@@ -30,9 +30,9 @@ const ContactForm = () => {
     };
 
     return (
-        <section className='bg-gray-100 py-12 md:py-6 px-4'>
+        <section className='py-12 md:py-6 px-4'>
             <div className='max-w-4xl mx-auto text-center'>
-                <h2 className='text-2xl md:text-3xl font-bold mb-6'>Contact Me</h2>
+                <h2 className='text-2xl md:text-3xl font-bold mb-6 text-white tracking-wide'>Contact Me</h2>
                 <form onSubmit={handleSubmit} className='space-y-4 md:space-y-6 border p-4 md:p-8 bg-white rounded-lg shadow-lg max-w-2xl mx-auto'>
                     {status === 'SUCCESS' && (
                         <div className="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded mb-4">

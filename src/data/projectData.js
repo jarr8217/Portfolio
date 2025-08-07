@@ -1,9 +1,16 @@
+import ERDMechShop from '../assets/ProjectImg/ERDMechSHOP.png';
+import MechShopAPI from '../assets/ProjectImg/MechShopAPI.png';
+
 export const projects = [
     {
         title: "My Mechanic Shop API",
         description:
             "Developed with Python and Flask, My Mechanic Shop API streamlines operations for auto repair shops by enabling customer, mechanic, ticket, and inventory management through secure RESTful endpoints. It incorporates JWT authentication, advanced querying, rate limiting, and a CI/CD pipeline. This project highlights my backend engineering skills and commitment to building scalable, maintainable APIs.",
         link: "https://github.com/jarr8217/My_Mechanic_Shop_API",
+        image: ERDMechShop,
+        imageAlt: "ERD Diagram for My Mechanic Shop API",
+        image2: MechShopAPI,
+        image2Alt: "My Mechanic Shop API Documentation",
     },
     {
         title: "Ecommerce API",

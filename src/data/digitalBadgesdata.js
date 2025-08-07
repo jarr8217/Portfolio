@@ -13,7 +13,7 @@ import seCert from '../assets/digitalBadges/Software Engineering Certificate of 
 
 export const badges = [
     {
-        id: 12,
+        id: 13,
         title: 'Software Engineering Certificate',
         description: 'Comprehensive certification in software engineering principles and practices.',
         link: 'https://www.credential.net/4c6714e7-5801-4c68-af90-ad1f2ae43d8a#acc.VxXNRnlQ',

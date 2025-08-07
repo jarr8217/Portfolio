@@ -13,6 +13,7 @@ const ProjectCard = ({ projects }) => {
 
     return (
         <>
+            <h2 className="text-xl md:text-4xl font-semibold mb-3 md:mb-4 text-white text-center">Projects</h2>
             <section className="mb-8 md:mb-10">
                 <ul className="space-y-3 md:space-y-4">
                     {projects.map((project, index) => (

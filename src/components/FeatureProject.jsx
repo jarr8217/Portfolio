@@ -3,7 +3,7 @@ import React from 'react';
 const FeatureProject = ({ project }) => {
     return (
         <>
-            <h1 className='text-2xl md:text-3xl font-bold mb-4 text-gray-800'>Featured Project</h1>
+            <h1 className='text-xl md:text-4xl font-semibold mb-3 md:mb-4 text-white text-center'>Featured Project</h1>
             <section className='bg-white shadow-lg rounded-lg p-4 md:p-6 border border-gray-200 hover:shadow-xl transition-shadow duration-300 mb-8'>
 
                 <h2 className="text-xl md:text-2xl font-semibold mb-3 text-gray-800">{project.title}</h2>

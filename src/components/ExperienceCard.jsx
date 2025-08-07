@@ -4,7 +4,7 @@ import { experience } from '../data/experienceData';
 const ExperienceCard = () => {
     return (
         <section className="mb-8 md:mb-10">
-            <h2 className="text-xl md:text-2xl font-semibold mb-3 md:mb-4">Experience</h2>
+            <h2 className="text-xl md:text-4xl font-semibold mb-3 md:mb-4 text-white text-center">Experience</h2>
             <ul className="space-y-3 md:space-y-4">
                 {experience.map((job, index) => (
                     <li key={index} className="bg-white shadow-lg rounded-lg p-4 md:p-6 border border-gray-200 hover:shadow-xl transition-shadow duration-300">

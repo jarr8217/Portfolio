@@ -6,7 +6,7 @@ const FeatureBadges = () => {
 
     return (
         <section className="mb-8 md:mb-20">
-            <h2 className="text-xl md:text-4xl font-semibold mb-3 md:mb-4 text-white">Featured Badges</h2>
+            <h2 className="text-xl md:text-4xl font-semibold mb-3 md:mb-4 text-white text-center">Featured Badges</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6">
                 {featuredBadges.map((badge) => (
                     <div key={badge.id} className="bg-white shadow-lg rounded-lg p-3 md:p-4 border border-gray-200 hover:shadow-xl transition-shadow duration-300 flex flex-col">

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Portrait from '../assets/portraits/Portrait.jpg';
+import ResumeDownload from './ResumeDownload';
 
 const HeroSection = () => {
     return (
@@ -29,12 +30,15 @@ const HeroSection = () => {
                         <h3 className='text-xl sm:text-2xl md:text-3xl font-bold text-white'>
                             MY WORK
                         </h3>
-                        <Link
-                            to="/projects"
-                            className='inline-block px-6 py-3 md:px-8 md:py-4 border-2 border-white text-white font-semibold text-sm md:text-base hover:bg-white hover:text-slate-800 transition-all duration-300 tracking-wide'
-                        >
-                            VIEW PROJECTS
-                        </Link>
+                        <div className='flex flex-col sm:flex-row gap-4'>
+                            <Link
+                                to="/projects"
+                                className='inline-block px-6 py-3 md:px-8 md:py-4 border-2 border-white text-white font-semibold text-sm md:text-base hover:bg-white hover:text-slate-800 transition-all duration-300 tracking-wide'
+                            >
+                                VIEW PROJECTS
+                            </Link>
+                            <ResumeDownload />
+                        </div>
                     </div>
                 </div>
 
